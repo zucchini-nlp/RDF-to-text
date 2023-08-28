@@ -1,0 +1,763 @@
+[
+    {
+        "question": "List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?",
+        "input": "('Google Videos', 'developer', 'Google');('Google Web Toolkit', 'author', 'Google');",
+        "output": [
+            "Google Videos was developed by Google. Google Web Toolkit was developed by Google.",
+            "Google Videos and Google Web Toolkit was developed by Google."
+        ]
+    },
+    {
+        "question": "For which games are Sam Loyd and Eric Schiller both famous?",
+        "input": "('Sam Loyd', 'known for', 'Chess');('Eric Schiller', 'known for', 'Chess');",
+        "output": [
+            "Sam Loyd is known for chess. Eric Schiller is known for chess.",
+            "Sa, Loyd and Eric Schiller are knwon for chess."
+        ]
+    },
+    {
+        "question": "Is Peter Piper Pizza in the pizza industry?",
+        "input": "('Peter Piper Pizza', 'industry', 'Pizza');",
+        "output": [
+            "Peter Piper Pizza is in the pizza industry"
+        ]
+    },
+    {
+        "question": "Name the artist who made Dream Dancing and is often associated with Joe Pass?",
+        "input": "('Joe Pass', 'associated band', 'Ella Fitzgerald');('Dream Dancing', 'artist', 'Ella Fitzgerald');",
+        "output": [
+            "Ella Fitzgerald is the composer of Dream Dancing and is associated with Joe Pass."
+        ]
+    },
+    {
+        "question": "Who is the office holder with deputies as Neil Brown and Andrew Peacock?",
+        "input": "('John Howard', 'deputy', 'Neil Brown');('John Howard', 'deputy', 'Andrew Peacock');",
+        "output": [
+            "John Howard is the office holder with deputies Neil Brown and Andrew Peacock.",
+            "John Howard is the deputy of Neil Brown and Andrew Peacock."
+        ]
+    },
+    {
+        "question": "Tell me the name of the Prime Time Entertainment Network's TV show whose Artist is Christopher Franke ?",
+        "input": "('Babylon 5', 'artist', 'Christopher Franke');('Babylon 5', 'network', 'Prime Time Entertainment Network');",
+        "output": [
+            "Babylon 5 a TV show available on Prime Time Entertainment Network where Christopher Franke is an artist.",
+            "Christopher Franke is the artist of the TV show, Babylon 5, which can be found on the Prime Time Entertainment Network."
+        ]
+    },
+    {
+        "question": "Which cport of Vishwajyot High School is also the genere of Battle chess?",
+        "input": "('Battle Chess', 'genre', 'Chess');('Vishwajyot High School', 'sport', 'Chess');",
+        "output": [
+            "Chess is a genre of Battle Chess and is a sport in the Vishwajyot High School.",
+            "Chess is a sport played in the Vishwajyot High School and is a genre of Battle chess."
+        ]
+    },
+    {
+        "question": "In which state is the Channel district?",
+        "input": "('Channel District', 'state', 'Florida');",
+        "output": [
+            "Channel District is located in state Florida."
+        ]
+    },
+    {
+        "question": "Who was in the missions of Apollo 11 and Gemini 8?",
+        "input": "('Neil Armstrong', 'mission', 'Apollo 11');('Neil Armstrong', 'mission', 'Gemini 8');",
+        "output": [
+            "Neil Armstrong was in the mission Apollo 11 and Gemini 8.",
+            "Apollo 11 was the mission of astronaut, Neil Armstrong, who also worked as an Apollo 8 crew member."
+        ]
+    },
+    {
+        "question": "Where can one find the Dzogchen Ponolop Rinpoche?",
+        "input": "('Dzogchen Ponlop Rinpoche', 'location', 'Seattle');",
+        "output": [
+            "Dzogchen Ponolop Rinpoche is located in Seattle."
+        ]
+    },
+    {
+        "question": "What is the route end of Birmingham and Oxford Junction Railway ?",
+        "input": "('Birmingham and Oxford Junction Railway', 'route end', 'Birmingham');",
+        "output": [
+            "Birmingham is the route end of Birmingham and Oxford Junction Railway.",
+            "The Birmingham and Oxford Junction Railway's end line is Birmingham."
+        ]
+    },
+    {
+        "question": "What is the river whose source is Lake Ontario?",
+        "input": "('Saint Lawrence River', 'source', 'Lake Ontario');",
+        "output": [
+            "Saint Lawrence River has a source Lake Ontario.",
+            "Lake Ontario is the source of Saint Lawrence River."
+        ]
+    },
+    {
+        "question": "Which location city of the Denver Broncos is the place of birth of Steven Clark Cunningham?",
+        "input": "('Denver Broncos', 'location city', 'Denver');('Steven Clark Cunningham', 'birth place', 'Denver');",
+        "output": [
+            "Denver is the birthplace of Steven Clark Cunningham and also the location city of Denver Broncos.",
+            "Denver Broncos is located in Denver which is the birthplace of Steven Clark Cunningham."
+        ]
+    },
+    {
+        "question": "is blue lagoon island a part of the bahamas achipelago?",
+        "input": "('Blue Lagoon Island', 'archipelago', 'The Bahamas');",
+        "output": [
+            "Blue Lagoon Island is located in the Bahamas archipelago."
+        ]
+    },
+    {
+        "question": "Name the movies distributed by RKO Pictures and has music composer as Bernard Herrmann?",
+        "input": "('On Dangerous Ground', 'distributor', 'RKO Pictures');('On Dangerous Ground', 'music composer', 'Bernard Herrmann');",
+        "output": [
+            "Bernard Herrmann is the music composer of On Dangerous Ground which is distributed by RKO Pictures.",
+            "On Dangerous Ground os distributed by RKO pictures and Bernard Hermmann is its music composer.",
+            "RKO Pictures is the distributor of the film On Dangerous Ground which has Bernard Herrmann as the music composer."
+        ]
+    },
+    {
+        "question": "Did the New Way party merge in the One Israel party?",
+        "input": "('New Way', 'merged into party', 'One Israel');",
+        "output": [
+            "One Israel has merged New way.",
+            "New Way was nerged into One Israel party."
+        ]
+    },
+    {
+        "question": "Is Seattle the Ship builder of USS Marmora (IX-189)?",
+        "input": "('USS Marmora', 'ship builder', 'Seattle');",
+        "output": [
+            "Seatlle is the ship builder of USS Marmora.",
+            "USS Marmora has a ship builder Seattle."
+        ]
+    },
+    {
+        "question": "Is Tirana the largest city of Albania?",
+        "input": "('Albania', 'largest city', 'Tirana');",
+        "output": [
+            "Tirana is the largest city of Albania."
+        ]
+    },
+    {
+        "question": "Where did Whitney Wistert debut?",
+        "input": "('Whitey Wistert', 'debut team', 'Cincinnati Reds');",
+        "output": [
+            "Whitney Wistert dubuted in the team Cincinnatu Reds.",
+            "Cincinnati Reds is the team where Whitney Wistert debuted."
+        ]
+    },
+    {
+        "question": "What is the river whose mouth locations are Arctic Ocean and Laptev Sea?",
+        "input": "('Lena River', 'mouth location', 'Arctic Ocean');('Lena River', 'mouth location', 'Laptev Sea');",
+        "output": [
+            "Lena river's mouth locations are Arctic Ocean and Laptev Sea.",
+            "Arctic Ocean and Laptev Sea are the mouth locations of Lena River."
+        ]
+    },
+    {
+        "question": "What is the faith of the Ajith Perera and religious affiliation of the Neungin High School?",
+        "input": "('Ajith Perera', 'religion', 'Buddhist');('Neungin High School', 'religious affiliation', 'Buddhist');",
+        "output": [
+            "Buddhism is the religion of Ajith Perera and Neungin High School.",
+            "Neungin High School's religion is Buddhism which is also the religion of Ajith Perera."
+        ]
+    },
+    {
+        "question": "Who are the current members of Insects vs Robots?",
+        "input": "('Insects vs Robots', 'current members', 'Micah Nelson');",
+        "output": [
+            "Micah Nelson is the current member of Insects vs Robots."
+        ]
+    },
+    {
+        "question": "Is Ombla originate in Croatia?",
+        "input": "('Ombla', 'source mountain', 'Croatia');",
+        "output": [
+            "Ombia originates in Croatia."
+        ]
+    },
+    {
+        "question": "Greater Napanee is the home town of what people?",
+        "input": "('Avril Lavigne', 'home town', 'Greater Napanee');",
+        "output": [
+            "Avril Lavigne's hometown is Greater Napanee.",
+            "Greater Napanee is the howntown of Avril Lavigne."
+        ]
+    },
+    {
+        "question": "Name the rivers who originate from Essex?",
+        "input": "('River Stour, Suffolk', 'mouth place', 'Essex');",
+        "output": [
+            "River Stour, Suffolk originates in Essex.",
+            "Essex is the mouth place of River Stour, Suffolk."
+        ]
+    },
+    {
+        "question": "Did Timm Gunn guest in Sunrise (HIMYM)?",
+        "input": "('Sunrise', 'guests', 'Tim Gunn');",
+        "output": [
+            "Tim Gunn was the guest in Sunrise."
+        ]
+    },
+    {
+        "question": "to which university did both, the Stanford Cardinal and Gerald Reaven go?",
+        "input": "('Stanford Cardinal', 'university', 'Stanford University');('Gerald Reaven', 'institution', 'Stanford University');",
+        "output": [
+            "Stanford Cardinal went to Stanford University. Gerald Reaven went to Stanford University.",
+            "Stanford Cardinal and Gerald Reaven went to Stanford University."
+        ]
+    },
+    {
+        "question": "where did Deion Sanders debut?",
+        "input": "('Deion Sanders', 'debut team', 'New York Yankees');",
+        "output": [
+            "Deion Sanders debuted in the New York Yankees team."
+        ]
+    },
+    {
+        "question": "What cities are nearer to Fuountain Lake Farm?",
+        "input": "('Fountain Lake Farm', 'nearest city', 'Montello, Wisconsin');",
+        "output": [
+            "Montello, Wisconsin is the nearest city to Fountain Lake Farm.",
+            "The nearest city to Fountain Lake Farm is Montello, Wisconsin."
+        ]
+    },
+    {
+        "question": "Who are the characters of Batman Live?",
+        "input": "('Batman Live', 'characters', 'Alfred Pennyworth');",
+        "output": [
+            "Alfred Pennyworth is the character of Batman Live."
+        ]
+    },
+    {
+        "question": "Which artists trained in San Francisco Art Institute?",
+        "input": "('Allan Amato', 'training', 'San Francisco Art Institute');",
+        "output": [
+            "Allan Amato trained in San Francisco Art Institute"
+        ]
+    },
+    {
+        "question": "What is the owning organisation of the Ford Kansas City Assembly Plant and also the builder of the Ford Y-block engine?",
+        "input": "('Ford Kansas City Assembly Plant', 'owning organisation', 'Ford Motor Company');('Ford Y-block engine', 'manufacturer', 'Ford Motor Company');",
+        "output": [
+            "Ford Motor Company owns Ford Kansas City Assembly Plant and builds Ford Y-block engine.",
+            "Ford Y-block engine is manufactured by Ford Motor Company which owns Ford Kansas City Assembly Plant."
+        ]
+    },
+    {
+        "question": "Name the country with currency as Aureus ?",
+        "input": "('History of the Roman Empire', 'currency', 'Aureus');",
+        "output": [
+            "Aureus is the currency of the Roman Empire.",
+            "The Roman Empire's currency is Aureus."
+        ]
+    },
+    {
+        "question": "what has been developed by John Fanning?",
+        "input": "('Napster', 'developer', 'John Fanning');",
+        "output": [
+            "Napster was developed by John Fanning.",
+            "John Fanning is the developer of Napster."
+        ]
+    },
+    {
+        "question": "Muhammad Yunus has won how many awards?",
+        "input": "('Muhammad Yunus', 'award', '14');",
+        "output": [
+            "Muhammad Yunus has 14 awards.",
+            "Muhammad Yunus won 14 awards."
+        ]
+    },
+    {
+        "question": "What is the faith of Kwai Chang Caine ?",
+        "input": "('Kwai Chang Caine', 'religion', 'Taoism');",
+        "output": [
+            "Kwai Chang Caine's religion is Taoism.",
+            "Taoism is the religion of Kwai Chang Caine."
+        ]
+    },
+    {
+        "question": "List the ethnicity of Riley Reid?",
+        "input": "('Riley Reid', 'ethnicity', 'German American');",
+        "output": [
+            "Riley Reid is German American.",
+            "The ethnicity of Riley Reid is German American."
+        ]
+    },
+    {
+        "question": "Giuseppe Bertello and Pietro Parolin are leaders of which place ?",
+        "input": "('Vatican City', 'leader', 'Giuseppe Bertello');('Vatican City', 'leader', 'Pietro Parolin');",
+        "output": [
+            "Vatican City's leaders are Giuseppe Bertello and Pietro Parolin.",
+            "Giuseppe Bertello and Pietro Parolin are the leaders of Vatican City."
+        ]
+    },
+    {
+        "question": "Is Henry David Thoreau interested in Politics?",
+        "input": "('Henry David Thoreau', 'main interests', 'Politics');",
+        "output": [
+            "Henry David Thoreau's main interest in Politics.",
+            "Henry David Thoreau is interested mainly in Politics."
+        ]
+    },
+    {
+        "question": "Among the companies who has product named Chinook who has a key person as Dennis Muilenburg ?",
+        "input": "('Boeing', 'key people', 'Dennis Muilenburg');('Boeing', 'products', 'Boeing CH-47 Chinook');",
+        "output": [
+            "Boeing produces Boeing CH-47 Chinook and has Dennis Muillenburg as key people."
+        ]
+    },
+    {
+        "question": "What is a common ingredient used in boyt Blodpalt and Kaszanka ?",
+        "input": "('Blodpalt', 'ingredient', 'Blood');('Kaszanka', 'ingredient', 'Blood');",
+        "output": [
+            "Blood is the ingredient of Blodpalt and Kaszanca.",
+            "Blood is the ingredient of Blodplat. Blood is the ingreadient of Kaszanca."
+        ]
+    },
+    {
+        "question": "Who is the partner of Rob Patterson?",
+        "input": "('Carmen Electra', 'partner', 'Rob Patterson');",
+        "output": [
+            "Rob Patterson's spouse is Carmen Electra.",
+            "Rob Patterson's partner is Carmen Electra."
+        ]
+    },
+    {
+        "question": "To which american football teams does the Heinz Field serve as home stadium?",
+        "input": "('Heinz Field', 'tenants', 'Pittsburgh Panthers football');",
+        "output": [
+            "Heinz Field is the home stadium of Pittsburgh Panthers football.",
+            "Pittsburgh Panthers football's teneant is Heinz Field."
+        ]
+    },
+    {
+        "question": "Which movies's screenplay is written by Akiva Goldsman?",
+        "input": "('A Beautiful Mind', 'screenplay', 'Akiva Goldsman');",
+        "output": [
+            "A Beautiful Mind is written by Akiva Goldsman."
+        ]
+    },
+    {
+        "question": "Give me all commanders which had an important role in both, the Battle of Fort Stephenson and Battle of the Thames?",
+        "input": "('Battle of Fort Stephenson', 'commander', 'Henry Procter');('Battle of the Thames', 'commander', 'Henry Procter');",
+        "output": [
+            "Henry Procter was the commander in the Battle of Fort Stephesen. Henry Procter was the commander in the Battle of the Thames.",
+            "Henry Procter was the commander in the Battle of Fort Stephesen and the Battle of the Thames."
+        ]
+    },
+    {
+        "question": "Which sea is surrounded by Rostock and Kaliningrad?",
+        "input": "('Baltic Sea', 'cities', 'Rostock');('Baltic Sea', 'cities', 'Kaliningrad');",
+        "output": [
+            "Rostock and Kaliningrad are cities in the coast of the Baltic Sea."
+        ]
+    },
+    {
+        "question": "Which television show's developer is Brian Graden and voices to the character is by Isaac Hayes?",
+        "input": "('South Park', 'developer', 'Brian Graden');('South Park', 'voices', 'Isaac Hayes');",
+        "output": [
+            "Isaac Hayes voiced the characters in the South Park which was developed by Brain Graden."
+        ]
+    },
+    {
+        "question": "Does the Ontario International Airport serve the Inland Empire?",
+        "input": "('Ontario International Airport', 'city-served', 'Inland Empire');",
+        "output": [
+            "Ontario International Airport serves Inland Empire.",
+            "Inland Empire is served at the Ontario International Airport."
+        ]
+    },
+    {
+        "question": "Is semnani one of the languages spoken in Iran?",
+        "input": "('Iran', 'languages', 'Semnani languages');",
+        "output": [
+            "Semnani languages are spoken in Iran."
+        ]
+    },
+    {
+        "question": "What is the television show whose executive producer is Douglas Netter?",
+        "input": "('Babylon 5', 'executive producer', 'Douglas Netter');",
+        "output": [
+            "Douglas Netter is the executive producer of Babylon 5.",
+            "Babylon 5 was produced by Douglas Netter."
+        ]
+    },
+    {
+        "question": "Where was Sino-French War fought ?",
+        "input": "('Sino-French War', 'territory', 'Annam');",
+        "output": [
+            "Sino-French War took place in Annam."
+        ]
+    },
+    {
+        "question": "Who did Daniel Gibson marry?",
+        "input": "('Keyshia Cole', 'spouse', 'Daniel Gibson');",
+        "output": [
+            "Keyshia Cole's spouse is Daniel Gibson.",
+            "Daniel Gibson's spouse is Keyshia Cole."
+        ]
+    },
+    {
+        "question": "Name the river with source as Shannon Pot and its mouth is located in Limerick?",
+        "input": "('River Shannon', 'source', 'Shannon Pot');('River Shannon', 'mouth location', 'Limerick');",
+        "output": [
+            "River Shannon starts in Shannon Pot and its mouth location is Limerick."
+        ]
+    },
+    {
+        "question": "What is the organisation whose purposes are Environmentalism and Peace?",
+        "input": "('Greenpeace', 'purpose', 'Environmentalism');('Greenpeace', 'purpose', 'Peace');",
+        "output": [
+            "Greenpeace's puposes are Environmentalism and Peace.",
+            "Environmentalism and Peace are the purpose of Greenpeace."
+        ]
+    },
+    {
+        "question": "Was John muir one of the first to ascend a mountain on Mt hoffmann?",
+        "input": "('Mount Hoffmann', 'person that first ascented a mountain', 'John Muir');",
+        "output": [
+            "John Muir was the first person to ascend on Mount Hoffman.",
+            "John Muir is the person that first ascented the Mount Hoffman."
+        ]
+    },
+    {
+        "question": "Name the team which is owned by Dafenham wind turbines and stood first in 1967 mexican Grand Prix ?",
+        "input": "('1967 Mexican Grand Prix', 'first team', 'Ford Motor Company');('Dagenham wind turbines', 'owner', 'Ford Motor Company');",
+        "output": [
+            "Ford Motor Company owns Dagenham wind turbines and was the first team in 1967 Mexican Grand Prix.",
+            "Ford Motor Company was the first team in 1967 Mexican Grand Prix and owns Dagenham wind turbines."
+        ]
+    },
+    {
+        "question": "Which education center Sidney Catlin Partrodge attended which was also the alma mater of Lisa Brummel ?",
+        "input": "('Sidney Catlin Partridge', 'education', 'Yale University');('Lisa Brummel', 'alma mater', 'Yale University');",
+        "output": [
+            "Yale University, where Sidney Catlin Partridge studies, was the alma mater of Lisa Brummel."
+        ]
+    },
+    {
+        "question": "In which city of Pittsburg Steelers was the Congress of Inductrial Organization founded ?",
+        "input": "('Congress of Industrial Organizations', 'founded', 'Pittsburgh');('Pittsburgh Steelers', 'city', 'Pittsburgh');",
+        "output": [
+            "Congress of Industrial Organizations was founded in Pittsburg which is a city in Pittsburgh Steelers."
+        ]
+    },
+    {
+        "question": "Name the sea into which Danish Straits flows and has Kaliningrad as one of the city on the shore ?",
+        "input": "('Baltic Sea', 'cities', 'Kaliningrad');('Baltic Sea', 'outflow', 'Danish straits');",
+        "output": [
+            "Kaliningrad is located in the shore of Baltic Sea which has an outflow from Danish straits."
+        ]
+    },
+    {
+        "question": "Miluk and Cayuse are still spoken in which part of the world?",
+        "input": "('Miluk language', 'region', 'Oregon');('Cayuse language', 'region', 'Oregon');",
+        "output": [
+            "Miluk and Cayuse are languages spoken in Oregon.",
+            "Miluk is spoken is Oregon. Cayuse is spoken in Oregon."
+        ]
+    },
+    {
+        "question": "Which governer of Winston bryant is also the president of Carl Stokes ?",
+        "input": "('Winston Bryant', 'governor', 'Bill Clinton');('Carl Stokes', 'president', 'Bill Clinton');",
+        "output": [
+            "Bill Clinton, who is the governor of Winston Bryant abd the president of Carl Stokes."
+        ]
+    },
+    {
+        "question": "List the sports of PATTS College of Aeronautics which are of interest of Jon Speelman ?",
+        "input": "('PATTS College of Aeronautics', 'athletics', 'Chess');('Jon Speelman', 'field', 'Chess');",
+        "output": [
+            "PATTS College of Aeronautics's sport is chess which is the field of Jon Speelman."
+        ]
+    },
+    {
+        "question": "Which show's theme music was composed by Primus and voiced by Isaac Hayes?",
+        "input": "('South Park', 'theme music composer', 'Primus');('South Park', 'voices', 'Isaac Hayes');",
+        "output": [
+            "South Park's music was composed by Primus and voiced by Isaac Hayes.",
+            "South Park was voiced by Isaac Hayes and composed by Primus."
+        ]
+    },
+    {
+        "question": "List the ingredient of Blodpalt ?",
+        "input": "('Blodpalt', 'ingredient', 'Blood');",
+        "output": [
+            "Blood is the ingredient of Blodpalt.",
+            "One of Blodpalts ingredients is Blood."
+        ]
+    },
+    {
+        "question": "Is Hyundai Lavita assembled in Malaysia?",
+        "input": "('Hyundai Lavita', 'assembly', 'Malaysia');",
+        "output": [
+            "Hyundai Lavita is assembled in Malaysia."
+        ]
+    },
+    {
+        "question": "What is the common nationality of Viveka Babajee anad Ronny Vencatachellum ?",
+        "input": "('Viveka Babajee', 'citizenship', 'Mauritius');('Ronny Vencatachellum', 'nationality', 'Mauritius');",
+        "output": [
+            "Viveka Babajee is from Mauritius. Ronny Vencatachellum is from Mauritius.",
+            "Viveka Babajee and Ronny Vencatachellum are from Mauritius."
+        ]
+    },
+    {
+        "question": "Is the Hyundai Lavita assembled in Ulsan?",
+        "input": "('Hyundai Lavita', 'assembly', 'Ulsan');",
+        "output": [
+            "Hyundai Lavita is assembled in Ulsan."
+        ]
+    },
+    {
+        "question": "What is the political party of Arun Chandra Guha and Indira Gandhi?",
+        "input": "('Arun Chandra Guha', 'party', 'Indian National Congress');('Indira Gandhi', 'party', 'Indian National Congress');",
+        "output": [
+            "Indian National Congress is the political party of Arun Chandra Guha and Indira Gandhi.",
+            "Indian National Congress is the political party of Arun Chandra Guha. Indian National Congress is the political party of Indira Gandhi."
+        ]
+    },
+    {
+        "question": "To which country is Svetlana Navasardyan from?",
+        "input": "('Svetlana Navasardyan', 'origin', 'Armenia');",
+        "output": [
+            "Svetlana Navasardyan is from Armenia."
+        ]
+    },
+    {
+        "question": "In all the places with a stagecoach, where is a Peetz Table Wind Energy Center located too?",
+        "input": "('Stagecoach, Colorado', 'location', 'Colorado');('Peetz Table Wind Energy Center', 'location', 'Colorado');",
+        "output": [
+            "Stagecoach, Colorado is located in Colorado. Peetz Table Wind Energy Center is located in Colorado.",
+            "Stagecoach, Colorado and Peetz Table Wind Energy Center is located in Colorado."
+        ]
+    },
+    {
+        "question": "Name the fictional character whose relatives are Huey, Dewey, and Louie and is of species American Pekin duck?",
+        "input": "('Donald Duck', 'relatives', 'Huey, Dewey, and Louie');('Donald Duck', 'species', 'American Pekin duck');",
+        "output": [
+            "Donald Duck is an American Pelin Duck and has relatives Huey, Dewey and Louis."
+        ]
+    },
+    {
+        "question": "Which is the university of Vanderbilt Commodores ?",
+        "input": "('Vanderbilt Commodores', 'university', 'Vanderbilt University');",
+        "output": [
+            "Vanderbilt Commodores's university is Vanderbilt University."
+        ]
+    },
+    {
+        "question": "What musicians are signed up with colpix records?",
+        "input": "('Davy Jones', 'label', 'Colpix Records');",
+        "output": [
+            "Davy Jones is signed up with Colpix Records."
+        ]
+    },
+    {
+        "question": "Who is the person that first ascented the Cathedral Peak and Mount Hoffmann?",
+        "input": "('Cathedral Peak', 'person that first ascented a mountain', 'John Muir');('Mount Hoffmann', 'person that first ascented a mountain', 'John Muir');",
+        "output": [
+            "John Muir was the person that first ascented the Cathdral Peak and Mount Hoffman.",
+            "John Muir was the person to ascent the Cathdral Peak and Mount Hoffman."
+        ]
+    },
+    {
+        "question": "What river is it whose source is Dowra?",
+        "input": "('River Shannon', 'source location', 'Dowra');",
+        "output": [
+            "River Shannon's source is Dowra.",
+            "Dowra is the source of River Shannon."
+        ]
+    },
+    {
+        "question": "What is the municipality of Homestead Grays Bridge ?",
+        "input": "('Homestead Grays Bridge', 'municipality', 'Pittsburgh, Pennsylvania');",
+        "output": [
+            "Pittsburg, Pennsylvania is the municipality of Homestead Grays Bridge.",
+            "The municipality of Homestead Grays Bridge is Pittsburg, Pennsylvania."
+        ]
+    },
+    {
+        "question": "Who is the narrator of The Incredible Hulk , 1982 TV series ?",
+        "input": "('The Incredible Hulk', 'narrated', 'Stan Lee');",
+        "output": [
+            "Stan Lee is the narrator of The Incredible Hulk.",
+            "The Incredible Hulk was narrated by Stan Lee."
+        ]
+    },
+    {
+        "question": "Which interest of Philip Novak is the relegion of Vesak ?",
+        "input": "('Philip Novak', 'main interests', 'Buddhism');('Vesak', 'type', 'Buddhism');",
+        "output": [
+            "Vesak is a type of Buddhism which ist the main interest of Philip Novak."
+        ]
+    },
+    {
+        "question": "What is the area of the Tar Heel Sports Network which is official residence of the Michael Nichols (photographer) ?",
+        "input": "('Tar Heel Sports Network', 'area', 'Virginia');('Michael Nichols', 'residence', 'Virginia');",
+        "output": [
+            "The Tar Heel Sports Network is based in Virginia which is the residence of Michael Nichols.",
+            "Michael Nichols lives in Virginia where The Tar Heel Sports Network is based."
+        ]
+    },
+    {
+        "question": "Cologny and Lancy are the neighboring municipalities of which place ?",
+        "input": "('Geneva', 'neighboring municipalities', 'Cologny');('Geneva', 'neighboring municipalities', 'Lancy');",
+        "output": [
+            "Geneva's neighboring municipalities are Cologny and Lancy.",
+            "Cologny and Lancy are the neighboring municipalities of Geneva."
+        ]
+    },
+    {
+        "question": "What is used as money for French Southern and Antarctic Lands is also the product of the Karafarin Bank ?",
+        "input": "('French Southern and Antarctic Lands', 'currency', 'Euro');('Karafarin Bank', 'product', 'Euro');",
+        "output": [
+            "Euro is the currency French Southern and Antarctic Lands and the product of Karafarin Bank.",
+            "Karafarin Bank's product is euro which is also the currency of French Southern and Antarctic Lands."
+        ]
+    },
+    {
+        "question": "What are the central characters in spy kids series?",
+        "input": "('Carmen Cortez', 'series', 'Spy Kids');",
+        "output": [
+            "Carmen Cortez plays in the Spy Kids."
+        ]
+    },
+    {
+        "question": "Which comic characters were created by Paul Dini?",
+        "input": "('Andrea Beaumont', 'creators', 'Paul Dini');",
+        "output": [
+            "Andrea Beaumont was created by Paul Dini."
+        ]
+    },
+    {
+        "question": "who owns the ship Victoria?",
+        "input": "('Victoria', 'owner', 'Ferdinand Magellan');",
+        "output": [
+            "Victoria is owned by Ferdinand Magellan.",
+            "Ferdinand Magellan is the owner of Victoria."
+        ]
+    },
+    {
+        "question": "What is the purpose of New Zealand Chess Federation ?",
+        "input": "('New Zealand Chess Federation', 'purpose', 'Chess');",
+        "output": [
+            "New Zealand Chess Federation's main soirt is chess."
+        ]
+    },
+    {
+        "question": "Which are the countires where Pioneer Corporation has flourished?",
+        "input": "('Pioneer Corporation', 'country', 'Japan');",
+        "output": [
+            "Pioneer Corporation is located in Japan."
+        ]
+    },
+    {
+        "question": "Who is the president of Carl Stokes nad Wyche Fowler ?",
+        "input": "('Carl Stokes', 'president', 'Bill Clinton');('Wyche Fowler', 'president', 'Bill Clinton');",
+        "output": [
+            "Bill Clinton is the president of Carl Strokes and Wyche Fowler."
+        ]
+    },
+    {
+        "question": "Is God Save the Queen the national anthem of United Kingdom?",
+        "input": "('United Kingdom', 'national anthem', 'God Save the Queen');",
+        "output": [
+            "The United Kindgom's national anthem is God Save the Queen.",
+            "God Save the Queen is the national anthem of the United Kingdom."
+        ]
+    },
+    {
+        "question": "Was christina crawford trained by Booker T?",
+        "input": "('Christina Crawford', 'trainer', 'Booker T');",
+        "output": [
+            "Booker T is the atriner of Christina Crawford.",
+            "Christina Crawford's trainer is Booker T."
+        ]
+    },
+    {
+        "question": "What is the currency of Kerguelen Islands ?",
+        "input": "('Kerguelen Islands', 'currency', 'Euro');",
+        "output": [
+            "The currency of Kerguelen Islands is euro.",
+            "Euro is the currency of Kerguelen Islands."
+        ]
+    },
+    {
+        "question": "Who is the leader of Hackweiser ?",
+        "input": "('Hackweiser', 'leader name', 'North America');",
+        "output": [
+            "Hackweiser's leader is the North America.",
+            "North America is the leader of Hackweiser."
+        ]
+    },
+    {
+        "question": "What is the common battle fought by Stephen Urban and Ali Habib Mahmud ?",
+        "input": "('Stephen Urban', 'battle', 'Gulf War');('Ali Habib Mahmud', 'battles', 'Gulf War');",
+        "output": [
+            "Stephen Urban and Ali Habib Mahmud fought in the Gulf War."
+        ]
+    },
+    {
+        "question": "What is the relegious affiliations of Katyayana ?",
+        "input": "('Katyayana', 'religion', 'Buddhism');",
+        "output": [
+            "The religion of Katyayana is Buddhism.",
+            "Buddhism is the religion of Katyayana."
+        ]
+    },
+    {
+        "question": "Name the tv show with judges Randy Jackson and Jennifer Lopez?",
+        "input": "('American Idol', 'judges', 'Randy Jackson');('American Idol', 'judges', 'Jennifer Lopez');",
+        "output": [
+            "Randy Jackson and Jennifer Lopez are the judges in the American Idol.",
+            "Randy Jackson is the judge in the American Idol. Jennifer Lopez is the judge in the American Idol."
+        ]
+    },
+    {
+        "question": "Is morrissey in the smiths?",
+        "input": "('Morrissey', 'associated band', 'The Smiths');",
+        "output": [
+            "Morrissey is a member of the band The Smiths."
+        ]
+    },
+    {
+        "question": "What is the serving railway line of Warwick railway station, Perth ?",
+        "input": "('Warwick railway station, Perth', 'serving railway line', 'Butler');",
+        "output": [
+            "Butler is the serving line of the Warwick railway station, Perth."
+        ]
+    },
+    {
+        "question": "Was True Grit a novel of the western genre?",
+        "input": "('True Grit', 'literary genre', 'Western');",
+        "output": [
+            "The genre of the True Grit is western.",
+            "True Grit is of the western genre."
+        ]
+    },
+    {
+        "question": "which movies have been published by Cinema International Corporation?",
+        "input": "('Black Moon', 'distributor', 'Cinema International Corporation');",
+        "output": [
+            "Black Moon is distributed by Cinema International Corporation.",
+            "Cinema International Corporation is the distrubitor of the Black Moon."
+        ]
+    },
+    {
+        "question": "List the award which have been won by both Charles LeMaire and Nick Park ?",
+        "input": "('Charles LeMaire', 'award', 'Academy Awards');('Nick Park', 'award', 'Academy Awards');",
+        "output": [
+            "Charles LeMaire won the Academy Awards. Nick Park won the Academy Awards.",
+            "Charles LeMaire and Nick Park won the Academic Awards."
+        ]
+    },
+    {
+        "question": "Name the movie who has screenplay by Akiva Goldsman and is edited by Mark Stevens ?",
+        "input": "('Batman', 'screenplay', 'Akiva Goldsman');('Batman', 'editing', 'Mark Stevens');",
+        "output": [
+            "Barman was written by Akiva Goldsman and edited by Mark Stevens."
+        ]
+    }
+]

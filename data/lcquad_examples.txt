@@ -1,0 +1,499 @@
+question: List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?
+triplets: [['http://d_r/Google_Videos', 'http://d_p/developer', 'http://d_r/Google'], ['http://d_r/Google_Web_Toolkit', 'http://d_o/author', 'http://d_r/Google']]
+triplets with labels: [['Google Videos', 'developer', 'Google'], ['Google Web Toolkit', 'author', 'Google']]
+answer: ["Google Videos was developed by Google. Google Web Toolkit was developed by Google.", "Google Videos and Google Web Toolkit was developed by Google."]
+
+question: For which games are Sam Loyd and Eric Schiller both famous?
+triplets: [['http://d_r/Sam_Loyd', 'http://d_o/knownFor', 'http://d_r/Chess'], ['http://d_r/Eric_Schiller', 'http://d_o/knownFor', 'http://d_r/Chess']]
+triplets with labels: [['Sam Loyd', 'known for', 'Chess'], ['Eric Schiller', 'known for', 'Chess']]
+answer: ["Sam Loyd is known for chess. Eric Schiller is known for chess.", "Sa, Loyd and Eric Schiller are knwon for chess."]
+
+question: Is Peter Piper Pizza in the pizza industry?
+triplets: [['http://d_r/Peter_Piper_Pizza', 'http://d_o/industry', 'http://d_r/Pizza']]
+triplets with labels: [['Peter Piper Pizza', 'industry', 'Pizza']]
+answer: ["Peter Piper Pizza is in the pizza industry"]
+
+question: Name the artist who made Dream Dancing and is often associated with Joe Pass?
+triplets: [['http://d_r/Joe_Pass', 'http://d_o/associatedBand', 'http://d_r/Ella_Fitzgerald'], ['http://d_r/Dream_Dancing_(album)', 'http://d_p/artist', 'http://d_r/Ella_Fitzgerald']]
+triplets with labels: [['Joe Pass', 'associated band', 'Ella Fitzgerald'], ['Dream Dancing', 'artist', 'Ella Fitzgerald']]
+answer: ["Ella Fitzgerald is the composer of Dream Dancing and is associated with Joe Pass."]
+
+question: Who is the office holder with deputies as Neil Brown and Andrew Peacock?
+triplets: [['http://d_r/John_Howard', 'http://d_p/deputy', 'http://d_r/Neil_Brown_(Australian_politician)'], ['http://d_r/John_Howard', 'http://d_p/deputy', 'http://d_r/Andrew_Peacock']]
+triplets with labels: [['John Howard', 'deputy', 'Neil Brown'], ['John Howard', 'deputy', 'Andrew Peacock']]
+answer: ["John Howard is the office holder with deputies Neil Brown and Andrew Peacock.", "John Howard is the deputy of Neil Brown and Andrew Peacock."]
+
+question: Tell me the name of the Prime Time Entertainment Network's TV show whose Artist is Christopher Franke ?
+triplets: [['http://d_r/Babylon_5', 'http://d_p/artist', 'http://d_r/Christopher_Franke'], ['http://d_r/Babylon_5', 'http://d_o/network', 'http://d_r/Prime_Time_Entertainment_Network']]
+triplets with labels: [['Babylon 5', 'artist', 'Christopher Franke'], ['Babylon 5', 'network', 'Prime Time Entertainment Network']]
+answer: ["Babylon 5 a TV show available on Prime Time Entertainment Network where Christopher Franke is an artist.", "Christopher Franke is the artist of the TV show, Babylon 5, which can be found on the Prime Time Entertainment Network."]
+
+question: Which cport of Vishwajyot High School is also the genere of Battle chess?
+triplets: [['http://d_r/Battle_Chess', 'http://d_p/genre', 'http://d_r/Chess'], ['http://d_r/Vishwajyot_High_School', 'http://d_o/sport', 'http://d_r/Chess']]
+triplets with labels: [['Battle Chess', 'genre', 'Chess'], ['Vishwajyot High School', 'sport', 'Chess']]
+answer: ["Chess is a genre of Battle Chess and is a sport in the Vishwajyot High School.", "Chess is a sport played in the Vishwajyot High School and is a genre of Battle chess."]
+
+question: In which state is the Channel district?
+triplets: [['http://d_r/Channel_District', 'http://d_o/state', 'http://d_r/Florida']]
+triplets with labels: [['Channel District', 'state', 'Florida']]
+answer: ["Channel District is located in state Florida."]
+
+question: Who was in the missions of Apollo 11 and Gemini 8?
+triplets: [['http://d_r/Neil_Armstrong', 'http://d_p/mission', 'http://d_r/Apollo_11'], ['http://d_r/Neil_Armstrong', 'http://d_p/mission', 'http://d_r/Gemini_8']]
+triplets with labels: [['Neil Armstrong', 'mission', 'Apollo 11'], ['Neil Armstrong', 'mission', 'Gemini 8']]
+answer: ["Neil Armstrong was in the mission Apollo 11 and Gemini 8.", "Apollo 11 was the mission of astronaut, Neil Armstrong, who also worked as an Apollo 8 crew member."]
+
+question: Where can one find the Dzogchen Ponolop Rinpoche?
+triplets: [['http://d_r/Dzogchen_Ponlop_Rinpoche', 'http://d_p/location', 'http://d_r/Seattle']]
+triplets with labels: [['Dzogchen Ponlop Rinpoche', 'location', 'Seattle']]
+answer: ["Dzogchen Ponolop Rinpoche is located in Seattle."]
+
+question: What is the route end of Birmingham and Oxford Junction Railway ?
+triplets: [['http://d_r/Birmingham_and_Oxford_Junction_Railway', 'http://d_o/routeEnd', 'http://d_r/Birmingham']]
+triplets with labels: [['Birmingham and Oxford Junction Railway', 'route end', 'Birmingham']]
+answer: ["Birmingham is the route end of Birmingham and Oxford Junction Railway.", "The Birmingham and Oxford Junction Railway's end line is Birmingham."]
+
+question: What is the river whose source is Lake Ontario?
+triplets: [['http://d_r/Saint_Lawrence_River', 'http://d_o/source', 'http://d_r/Lake_Ontario']]
+triplets with labels: [['Saint Lawrence River', 'source', 'Lake Ontario']]
+answer: ["Saint Lawrence River has a source Lake Ontario.", "Lake Ontario is the source of Saint Lawrence River."]
+
+question: Which location city of the Denver Broncos is the place of birth of Steven Clark Cunningham?
+triplets: [['http://d_r/Denver_Broncos', 'http://d_o/locationCity', 'http://d_r/Denver'], ['http://d_r/Steven_Clark_Cunningham', 'http://d_o/birthPlace', 'http://d_r/Denver']]
+triplets with labels: [['Denver Broncos', 'location city', 'Denver'], ['Steven Clark Cunningham', 'birth place', 'Denver']]
+answer: ["Denver is the birthplace of Steven Clark Cunningham and also the location city of Denver Broncos.", "Denver Broncos is located in Denver which is the birthplace of Steven Clark Cunningham."]
+
+question: is blue lagoon island a part of the bahamas achipelago?
+triplets: [['http://d_r/Blue_Lagoon_Island', 'http://d_o/archipelago', 'http://d_r/The_Bahamas']]
+triplets with labels: [['Blue Lagoon Island', 'archipelago', 'The Bahamas']]
+answer: ["Blue Lagoon Island is located in the Bahamas archipelago."]
+
+question: Name the movies distributed by RKO Pictures and has music composer as Bernard Herrmann?
+triplets: [['http://d_r/On_Dangerous_Ground', 'http://d_p/distributor', 'http://d_r/RKO_Pictures'], ['http://d_r/On_Dangerous_Ground', 'http://d_o/musicComposer', 'http://d_r/Bernard_Herrmann']]
+triplets with labels: [['On Dangerous Ground', 'distributor', 'RKO Pictures'], ['On Dangerous Ground', 'music composer', 'Bernard Herrmann']]
+answer: ["Bernard Herrmann is the music composer of On Dangerous Ground which is distributed by RKO Pictures.", "On Dangerous Ground os distributed by RKO pictures and Bernard Hermmann is its music composer.", "RKO Pictures is the distributor of the film On Dangerous Ground which has Bernard Herrmann as the music composer."]
+
+question: Did the New Way party merge in the One Israel party?
+triplets: [['http://d_r/New_Way_(Israel)', 'http://d_o/mergedIntoParty', 'http://d_r/One_Israel']]
+triplets with labels: [['New Way', 'merged into party', 'One Israel']]
+answer: ["One Israel has merged New way.", "New Way was nerged into One Israel party."]
+
+question: Is Seattle the Ship builder of USS Marmora (IX-189)?
+triplets: [['http://d_r/USS_Marmora_(IX-189)', 'http://d_p/shipBuilder', 'http://d_r/Seattle']]
+triplets with labels: [['USS Marmora', 'ship builder', 'Seattle']]
+answer: ["Seatlle is the ship builder of USS Marmora.", "USS Marmora has a ship builder Seattle."]
+
+question: Is Tirana the largest city of Albania?
+triplets: [['http://d_r/Albania', 'http://d_p/largestCity', 'http://d_r/Tirana']]
+triplets with labels: [['Albania', 'largest city', 'Tirana']]
+answer: ["Tirana is the largest city of Albania."]
+
+question: Where did Whitney Wistert debut?
+triplets: [['http://d_r/Whitey_Wistert', 'http://d_p/debutteam', 'http://d_r/Cincinnati_Reds']]
+triplets with labels: [['Whitey Wistert', 'debut team', 'Cincinnati Reds']]
+answer: ["Whitney Wistert dubuted in the team Cincinnatu Reds.", "Cincinnati Reds is the team where Whitney Wistert debuted."]
+
+question: What is the river whose mouth locations are Arctic Ocean and Laptev Sea?
+triplets: [['http://d_r/Lena_River', 'http://d_p/mouthLocation', 'http://d_r/Arctic_Ocean'], ['http://d_r/Lena_River', 'http://d_p/mouthLocation', 'http://d_r/Laptev_Sea']]
+triplets with labels: [['Lena River', 'mouth location', 'Arctic Ocean'], ['Lena River', 'mouth location', 'Laptev Sea']]
+answer: ["Lena river's mouth locations are Arctic Ocean and Laptev Sea.", "Arctic Ocean and Laptev Sea are the mouth locations of Lena River."]
+
+question: What is the faith of the Ajith Perera and religious affiliation of the Neungin High School?
+triplets: [['http://d_r/Ajith_Perera', 'http://d_o/religion', 'http://d_r/Buddhist'], ['http://d_r/Neungin_High_School', 'http://d_p/religiousAffiliation', 'http://d_r/Buddhist']]
+triplets with labels: [['Ajith Perera', 'religion', 'Buddhist'], ['Neungin High School', 'religious affiliation', 'Buddhist']]
+answer: ["Buddhism is the religion of Ajith Perera and Neungin High School.", "Neungin High School's religion is Buddhism which is also the religion of Ajith Perera."]
+
+question: Who are the current members of Insects vs Robots?
+triplets: [['http://d_r/Insects_vs_Robots', 'http://d_p/currentMembers', 'http://d_r/Micah_Nelson']]
+triplets with labels: [['Insects vs Robots', 'current members', 'Micah Nelson']]
+answer: ["Micah Nelson is the current member of Insects vs Robots."]
+
+question: Is Ombla originate in Croatia?
+triplets: [['http://d_r/Ombla', 'http://d_o/sourceMountain', 'http://d_r/Croatia']]
+triplets with labels: [['Ombla', 'source mountain', 'Croatia']]
+answer: ["Ombia originates in Croatia."]
+
+question: Greater Napanee is the home town of what people?
+triplets: [['http://d_r/Avril_Lavigne', 'http://d_o/hometown', 'http://d_r/Greater_Napanee']]
+triplets with labels: [['Avril Lavigne', 'home town', 'Greater Napanee']]
+answer: ["Avril Lavigne's hometown is Greater Napanee.", "Greater Napanee is the howntown of Avril Lavigne."]
+
+question: Name the rivers who originate from Essex?
+triplets: [['http://d_r/River_Stour,_Suffolk', 'http://d_o/mouthPlace', 'http://d_r/Essex']]
+triplets with labels: [['River Stour, Suffolk', 'mouth place', 'Essex']]
+answer: ["River Stour, Suffolk originates in Essex.", "Essex is the mouth place of River Stour, Suffolk."]
+
+question: Did Timm Gunn guest in Sunrise (HIMYM)?
+triplets: [['http://d_r/Sunrise_(How_I_Met_Your_Mother)', 'http://d_p/guests', 'http://d_r/Tim_Gunn']]
+triplets with labels: [['Sunrise', 'guests', 'Tim Gunn']]
+answer: ["Tim Gunn was the guest in Sunrise."]
+
+question: to which university did both, the Stanford Cardinal and Gerald Reaven go?
+triplets: [['http://d_r/Stanford_Cardinal', 'http://d_o/university', 'http://d_r/Stanford_University'], ['http://d_r/Gerald_Reaven', 'http://d_o/institution', 'http://d_r/Stanford_University']]
+triplets with labels: [['Stanford Cardinal', 'university', 'Stanford University'], ['Gerald Reaven', 'institution', 'Stanford University']]
+answer: ["Stanford Cardinal went to Stanford University. Gerald Reaven went to Stanford University.", "Stanford Cardinal and Gerald Reaven went to Stanford University."]
+
+question: where did Deion Sanders debut?
+triplets: [['http://d_r/Deion_Sanders', 'http://d_p/debutteam', 'http://d_r/New_York_Yankees']]
+triplets with labels: [['Deion Sanders', 'debut team', 'New York Yankees']]
+answer: ["Deion Sanders debuted in the New York Yankees team."]
+
+question: What cities are nearer to Fuountain Lake Farm?
+triplets: [['http://d_r/Fountain_Lake_Farm', 'http://d_p/nearestCity', 'http://d_r/Montello,_Wisconsin']]
+triplets with labels: [['Fountain Lake Farm', 'nearest city', 'Montello, Wisconsin']]
+answer: ["Montello, Wisconsin is the nearest city to Fountain Lake Farm.", "The nearest city to Fountain Lake Farm is Montello, Wisconsin."]
+
+question: Who are the characters of Batman Live?
+triplets: [['http://d_r/Batman_Live', 'http://d_p/characters', 'http://d_r/Alfred_Pennyworth']]
+triplets with labels: [['Batman Live', 'characters', 'Alfred Pennyworth']]
+answer: ["Alfred Pennyworth is the character of Batman Live."]
+
+question: Which artists trained in San Francisco Art Institute?
+triplets: [['http://d_r/Allan_Amato', 'http://d_p/training', 'http://d_r/San_Francisco_Art_Institute']]
+triplets with labels: [['Allan Amato', 'training', 'San Francisco Art Institute']]
+answer: ["Allan Amato trained in San Francisco Art Institute"]
+
+question: What is the owning organisation of the Ford Kansas City Assembly Plant and also the builder of the Ford Y-block engine?
+triplets: [['http://d_r/Ford_Kansas_City_Assembly_Plant', 'http://d_o/owningOrganisation', 'http://d_r/Ford_Motor_Company'], ['http://d_r/Ford_Y-block_engine', 'http://d_o/manufacturer', 'http://d_r/Ford_Motor_Company']]
+triplets with labels: [['Ford Kansas City Assembly Plant', 'owning organisation', 'Ford Motor Company'], ['Ford Y-block engine', 'manufacturer', 'Ford Motor Company']]
+answer: ["Ford Motor Company owns Ford Kansas City Assembly Plant and builds Ford Y-block engine.", "Ford Y-block engine is manufactured by Ford Motor Company which owns Ford Kansas City Assembly Plant."]
+
+question: Name the country with currency as Aureus ?
+triplets: [['http://d_r/History_of_the_Roman_Empire', 'http://d_o/currency', 'http://d_r/Aureus']]
+triplets with labels: [['History of the Roman Empire', 'currency', 'Aureus']]
+answer: ["Aureus is the currency of the Roman Empire.", "The Roman Empire's currency is Aureus."]
+
+question: what has been developed by John Fanning?
+triplets: [['http://d_r/Napster', 'http://d_o/developer', 'http://d_r/John_Fanning_(businessman)']]
+triplets with labels: [['Napster', 'developer', 'John Fanning']]
+answer: ["Napster was developed by John Fanning.", "John Fanning is the developer of Napster."]
+
+question: Muhammad Yunus has won how many awards?
+triplets: [['http://d_r/Muhammad_Yunus', 'http://d_o/award', 'http://d_r/14']]
+triplets with labels: [['Muhammad Yunus', 'award', '14']]
+answer: ["Muhammad Yunus has 14 awards.", "Muhammad Yunus won 14 awards."]
+
+question: What is the faith of Kwai Chang Caine ?
+triplets: [['http://d_r/Kwai_Chang_Caine', 'http://d_o/religion', 'http://d_r/Taoism']]
+triplets with labels: [['Kwai Chang Caine', 'religion', 'Taoism']]
+answer: ["Kwai Chang Caine's religion is Taoism.", "Taoism is the religion of Kwai Chang Caine."]
+
+question: List the ethnicity of Riley Reid?
+triplets: [['http://d_r/Riley_Reid', 'http://d_p/ethnicity', 'http://d_r/German_American']]
+triplets with labels: [['Riley Reid', 'ethnicity', 'German American']]
+answer: ["Riley Reid is German American.", "The ethnicity of Riley Reid is German American."]
+
+question:  Giuseppe Bertello and Pietro Parolin are leaders of which place ?
+triplets: [['http://d_r/Vatican_City', 'http://d_o/leader', 'http://d_r/Giuseppe_Bertello'], ['http://d_r/Vatican_City', 'http://d_o/leader', 'http://d_r/Pietro_Parolin']]
+triplets with labels: [['Vatican City', 'leader', 'Giuseppe Bertello'], ['Vatican City', 'leader', 'Pietro Parolin']]
+answer: ["Vatican City's leaders are Giuseppe Bertello and Pietro Parolin.", "Giuseppe Bertello and Pietro Parolin are the leaders of Vatican City."]
+
+question: Is Henry David Thoreau interested in Politics?
+triplets: [['http://d_r/Henry_David_Thoreau', 'http://d_p/mainInterests', 'http://d_r/Politics']]
+triplets with labels: [['Henry David Thoreau', 'main interests', 'Politics']]
+answer: ["Henry David Thoreau's main interest in Politics.", "Henry David Thoreau is interested mainly in Politics."]
+
+question: Among the companies who has product named Chinook who has a key person as Dennis Muilenburg ?
+triplets: [['http://d_r/Boeing', 'http://d_p/keyPeople', 'http://d_r/Dennis_Muilenburg'], ['http://d_r/Boeing', 'http://d_p/products', 'http://d_r/Boeing_CH-47_Chinook']]
+triplets with labels: [['Boeing', 'key people', 'Dennis Muilenburg'], ['Boeing', 'products', 'Boeing CH-47 Chinook']]
+answer: ["Boeing produces Boeing CH-47 Chinook and has Dennis Muillenburg as key people."]
+
+question: What is a common ingredient used in boyt Blodpalt and Kaszanka ?
+triplets: [['http://d_r/Blodpalt', 'http://d_o/ingredient', 'http://d_r/Blood'], ['http://d_r/Kaszanka', 'http://d_o/ingredient', 'http://d_r/Blood']]
+triplets with labels: [['Blodpalt', 'ingredient', 'Blood'], ['Kaszanka', 'ingredient', 'Blood']]
+answer: ["Blood is the ingredient of Blodpalt and Kaszanca.", "Blood is the ingredient of Blodplat. Blood is the ingreadient of Kaszanca."]
+
+question: Who is the partner of Rob Patterson?
+triplets: [['http://d_r/Carmen_Electra', 'http://d_p/partner', 'http://d_r/Rob_Patterson']]
+triplets with labels: [['Carmen Electra', 'partner', 'Rob Patterson']]
+answer: ["Rob Patterson's spouse is Carmen Electra.", "Rob Patterson's partner is Carmen Electra."]
+
+question: To which american football teams does the Heinz Field serve as home stadium?
+triplets: [['http://d_r/Heinz_Field', 'http://d_p/tenants', 'http://d_r/Pittsburgh_Panthers_football']]
+triplets with labels: [['Heinz Field', 'tenants', 'Pittsburgh Panthers football']]
+answer: ["Heinz Field is the home stadium of Pittsburgh Panthers football.", "Pittsburgh Panthers football's teneant is Heinz Field."]
+
+question: Which movies's screenplay is written by Akiva Goldsman?
+triplets: [['http://d_r/A_Beautiful_Mind_(film)', 'http://d_p/screenplay', 'http://d_r/Akiva_Goldsman']]
+triplets with labels: [['A Beautiful Mind', 'screenplay', 'Akiva Goldsman']]
+answer: ["A Beautiful Mind is written by Akiva Goldsman."]
+
+question: Give me all commanders which had an important role in both, the Battle of Fort Stephenson and Battle of the Thames?
+triplets: [['http://d_r/Battle_of_Fort_Stephenson', 'http://d_o/commander', 'http://d_r/Henry_Procter_(British_Army_officer)'], ['http://d_r/Battle_of_the_Thames', 'http://d_o/commander', 'http://d_r/Henry_Procter_(British_Army_officer)']]
+triplets with labels: [['Battle of Fort Stephenson', 'commander', 'Henry Procter'], ['Battle of the Thames', 'commander', 'Henry Procter']]
+answer: ["Henry Procter was the commander in the Battle of Fort Stephesen. Henry Procter was the commander in the Battle of the Thames.", "Henry Procter was the commander in the Battle of Fort Stephesen and the Battle of the Thames."]
+
+question: Which sea is surrounded by Rostock and Kaliningrad?
+triplets: [['http://d_r/Baltic_Sea', 'http://d_p/cities', 'http://d_r/Rostock'], ['http://d_r/Baltic_Sea', 'http://d_p/cities', 'http://d_r/Kaliningrad']]
+triplets with labels: [['Baltic Sea', 'cities', 'Rostock'], ['Baltic Sea', 'cities', 'Kaliningrad']]
+answer: ["Rostock and Kaliningrad are cities in the coast of the Baltic Sea."]
+
+question: Which television show's developer is Brian Graden and voices to the character is by Isaac Hayes?
+triplets: [['http://d_r/South_Park', 'http://d_p/developer', 'http://d_r/Brian_Graden'], ['http://d_r/South_Park', 'http://d_p/voices', 'http://d_r/Isaac_Hayes']]
+triplets with labels: [['South Park', 'developer', 'Brian Graden'], ['South Park', 'voices', 'Isaac Hayes']]
+answer: ["Isaac Hayes voiced the characters in the South Park which was developed by Brain Graden."]
+
+question: Does the Ontario International Airport serve the Inland Empire?
+triplets: [['http://d_r/Ontario_International_Airport', 'http://d_p/cityServed', 'http://d_r/Inland_Empire']]
+triplets with labels: [['Ontario International Airport', 'city-served', 'Inland Empire']]
+answer: ["Ontario International Airport serves Inland Empire.", "Inland Empire is served at the Ontario International Airport."]
+
+question: Is semnani one of the languages spoken in Iran?
+triplets: [['http://d_r/Iran', 'http://d_p/languages', 'http://d_r/Semnani_languages']]
+triplets with labels: [['Iran', 'languages', 'Semnani languages']]
+answer: ["Semnani languages are spoken in Iran."]
+
+question: What is the television show whose executive producer is Douglas Netter?
+triplets: [['http://d_r/Babylon_5', 'http://d_o/executiveProducer', 'http://d_r/Douglas_Netter']]
+triplets with labels: [['Babylon 5', 'executive producer', 'Douglas Netter']]
+answer: ["Douglas Netter is the executive producer of Babylon 5.", "Babylon 5 was produced by Douglas Netter."]
+
+question: Where was Sino-French War fought ?
+triplets: [['http://d_r/Sino-French_War', 'http://d_o/territory', 'http://d_r/Annam_(French_protectorate)']]
+triplets with labels: [['Sino-French War', 'territory', 'Annam']]
+answer: ["Sino-French War took place in Annam."]
+
+question: Who did Daniel Gibson marry?
+triplets: [['http://d_r/Keyshia_Cole', 'http://d_o/spouse', 'http://d_r/Daniel_Gibson']]
+triplets with labels: [['Keyshia Cole', 'spouse', 'Daniel Gibson']]
+answer: ["Keyshia Cole's spouse is Daniel Gibson.", "Daniel Gibson's spouse is Keyshia Cole."]
+
+question: Name the river with source as Shannon Pot and its mouth is located in Limerick?
+triplets: [['http://d_r/River_Shannon', 'http://d_o/source', 'http://d_r/Shannon_Pot'], ['http://d_r/River_Shannon', 'http://d_p/mouthLocation', 'http://d_r/Limerick']]
+triplets with labels: [['River Shannon', 'source', 'Shannon Pot'], ['River Shannon', 'mouth location', 'Limerick']]
+answer: ["River Shannon starts in Shannon Pot and its mouth location is Limerick."]
+
+question: What is the organisation whose purposes are Environmentalism and Peace?
+triplets: [['http://d_r/Greenpeace', 'http://d_p/purpose', 'http://d_r/Environmentalism'], ['http://d_r/Greenpeace', 'http://d_p/purpose', 'http://d_r/Peace']]
+triplets with labels: [['Greenpeace', 'purpose', 'Environmentalism'], ['Greenpeace', 'purpose', 'Peace']]
+answer: ["Greenpeace's puposes are Environmentalism and Peace.", "Environmentalism and Peace are the purpose of Greenpeace."]
+
+question: Was John muir one of the first to ascend a mountain on Mt hoffmann?
+triplets: [['http://d_r/Mount_Hoffmann', 'http://d_o/firstAscentPerson', 'http://d_r/John_Muir']]
+triplets with labels: [['Mount Hoffmann', 'person that first ascented a mountain', 'John Muir']]
+answer: ["John Muir was the first person to ascend on Mount Hoffman.", "John Muir is the person that first ascented the Mount Hoffman."]
+
+question: Name the team which is owned by Dafenham wind turbines and stood first in 1967 mexican Grand Prix ?
+triplets: [['http://d_r/1967_Mexican_Grand_Prix', 'http://d_p/firstTeam', 'http://d_r/Ford_Motor_Company'], ['http://d_r/Dagenham_wind_turbines', 'http://d_p/owner', 'http://d_r/Ford_Motor_Company']]
+triplets with labels: [['1967 Mexican Grand Prix', 'first team', 'Ford Motor Company'], ['Dagenham wind turbines', 'owner', 'Ford Motor Company']]
+answer: ["Ford Motor Company owns Dagenham wind turbines and was the first team in 1967 Mexican Grand Prix.", "Ford Motor Company was the first team in 1967 Mexican Grand Prix and owns Dagenham wind turbines."]
+
+question: Which education center Sidney Catlin Partrodge attended which was also the alma mater of Lisa Brummel ?
+triplets: [['http://d_r/Sidney_Catlin_Partridge', 'http://d_p/education', 'http://d_r/Yale_University'], ['http://d_r/Lisa_Brummel', 'http://d_o/almaMater', 'http://d_r/Yale_University']]
+triplets with labels: [['Sidney Catlin Partridge', 'education', 'Yale University'], ['Lisa Brummel', 'alma mater', 'Yale University']]
+answer: ["Yale University, where Sidney Catlin Partridge studies, was the alma mater of Lisa Brummel."]
+
+question: In which city of Pittsburg Steelers was the Congress of Inductrial Organization founded ?
+triplets: [['http://d_r/Congress_of_Industrial_Organizations', 'http://d_p/founded', 'http://d_r/Pittsburgh'], ['http://d_r/Pittsburgh_Steelers', 'http://d_p/city', 'http://d_r/Pittsburgh']]
+triplets with labels: [['Congress of Industrial Organizations', 'founded', 'Pittsburgh'], ['Pittsburgh Steelers', 'city', 'Pittsburgh']]
+answer: ["Congress of Industrial Organizations was founded in Pittsburg which is a city in Pittsburgh Steelers."]
+
+question: Name the sea into which Danish Straits flows and has Kaliningrad as one of the city on the shore ?
+triplets: [['http://d_r/Baltic_Sea', 'http://d_p/cities', 'http://d_r/Kaliningrad'], ['http://d_r/Baltic_Sea', 'http://d_p/outflow', 'http://d_r/Danish_straits']]
+triplets with labels: [['Baltic Sea', 'cities', 'Kaliningrad'], ['Baltic Sea', 'outflow', 'Danish straits']]
+answer: ["Kaliningrad is located in the shore of Baltic Sea which has an outflow from Danish straits."]
+
+question: Miluk and Cayuse are still spoken in which part of the world?
+triplets: [['http://d_r/Miluk_language', 'http://d_p/region', 'http://d_r/Oregon'], ['http://d_r/Cayuse_language', 'http://d_p/region', 'http://d_r/Oregon']]
+triplets with labels: [['Miluk language', 'region', 'Oregon'], ['Cayuse language', 'region', 'Oregon']]
+answer: ["Miluk and Cayuse are languages spoken in Oregon.", "Miluk is spoken is Oregon. Cayuse is spoken in Oregon."]
+
+question: Which governer of Winston bryant is also the president of Carl Stokes ?
+triplets: [['http://d_r/Winston_Bryant', 'http://d_p/governor', 'http://d_r/Bill_Clinton'], ['http://d_r/Carl_Stokes', 'http://d_p/president', 'http://d_r/Bill_Clinton']]
+triplets with labels: [['Winston Bryant', 'governor', 'Bill Clinton'], ['Carl Stokes', 'president', 'Bill Clinton']]
+answer: ["Bill Clinton, who is the governor of Winston Bryant abd the president of Carl Stokes."]
+
+question: List the sports of PATTS College of Aeronautics which are of interest of Jon Speelman ?
+triplets: [['http://d_r/PATTS_College_of_Aeronautics', 'http://d_p/athletics', 'http://d_r/Chess'], ['http://d_r/Jon_Speelman', 'http://d_o/field', 'http://d_r/Chess']]
+triplets with labels: [['PATTS College of Aeronautics', 'athletics', 'Chess'], ['Jon Speelman', 'field', 'Chess']]
+answer: ["PATTS College of Aeronautics's sport is chess which is the field of Jon Speelman."]
+
+question: Which show's theme music was composed by Primus and voiced by Isaac Hayes?
+triplets: [['http://d_r/South_Park', 'http://d_p/themeMusicComposer', 'http://d_r/Primus_(band)'], ['http://d_r/South_Park', 'http://d_p/voices', 'http://d_r/Isaac_Hayes']]
+triplets with labels: [['South Park', 'theme music composer', 'Primus'], ['South Park', 'voices', 'Isaac Hayes']]
+answer: ["South Park's music was composed by Primus and voiced by Isaac Hayes.", "South Park was voiced by Isaac Hayes and composed by Primus."]
+
+question: List the ingredient of Blodpalt ?
+triplets: [['http://d_r/Blodpalt', 'http://d_o/ingredient', 'http://d_r/Blood']]
+triplets with labels: [['Blodpalt', 'ingredient', 'Blood']]
+answer: ["Blood is the ingredient of Blodpalt.", "One of Blodpalts ingredients is Blood."]
+
+question: Is Hyundai Lavita assembled in Malaysia?
+triplets: [['http://d_r/Hyundai_Lavita', 'http://d_o/assembly', 'http://d_r/Malaysia']]
+triplets with labels: [['Hyundai Lavita', 'assembly', 'Malaysia']]
+answer: ["Hyundai Lavita is assembled in Malaysia."]
+
+question: What is the common nationality of Viveka Babajee anad Ronny Vencatachellum ?
+triplets: [['http://d_r/Viveka_Babajee', 'http://d_p/citizenship', 'http://d_r/Mauritius'], ['http://d_r/Ronny_Vencatachellum', 'http://d_o/nationality', 'http://d_r/Mauritius']]
+triplets with labels: [['Viveka Babajee', 'citizenship', 'Mauritius'], ['Ronny Vencatachellum', 'nationality', 'Mauritius']]
+answer: ["Viveka Babajee is from Mauritius. Ronny Vencatachellum is from Mauritius.", "Viveka Babajee and Ronny Vencatachellum are from Mauritius."]
+
+question: Is the Hyundai Lavita assembled in Ulsan?
+triplets: [['http://d_r/Hyundai_Lavita', 'http://d_p/assembly', 'http://d_r/Ulsan']]
+triplets with labels: [['Hyundai Lavita', 'assembly', 'Ulsan']]
+answer: ["Hyundai Lavita is assembled in Ulsan."]
+
+question: What is the political party of Arun Chandra Guha and Indira Gandhi?
+triplets: [['http://d_r/Arun_Chandra_Guha', 'http://d_o/party', 'http://d_r/Indian_National_Congress'], ['http://d_r/Indira_Gandhi', 'http://d_o/party', 'http://d_r/Indian_National_Congress']]
+triplets with labels: [['Arun Chandra Guha', 'party', 'Indian National Congress'], ['Indira Gandhi', 'party', 'Indian National Congress']]
+answer: ["Indian National Congress is the political party of Arun Chandra Guha and Indira Gandhi.", "Indian National Congress is the political party of Arun Chandra Guha. Indian National Congress is the political party of Indira Gandhi."]
+
+question: To which country is Svetlana Navasardyan from?
+triplets: [['http://d_r/Svetlana_Navasardyan', 'http://d_p/origin', 'http://d_r/Armenia']]
+triplets with labels: [['Svetlana Navasardyan', 'origin', 'Armenia']]
+answer: ["Svetlana Navasardyan is from Armenia."]
+
+question: In all the places with a stagecoach, where is a Peetz Table Wind Energy Center located too?
+triplets: [['http://d_r/Stagecoach,_Colorado', 'http://d_p/location', 'http://d_r/Colorado'], ['http://d_r/Peetz_Table_Wind_Energy_Center', 'http://d_p/location', 'http://d_r/Colorado']]
+triplets with labels: [['Stagecoach, Colorado', 'location', 'Colorado'], ['Peetz Table Wind Energy Center', 'location', 'Colorado']]
+answer: ["Stagecoach, Colorado is located in Colorado. Peetz Table Wind Energy Center is located in Colorado.", "Stagecoach, Colorado and Peetz Table Wind Energy Center is located in Colorado."]
+
+question: Name the fictional character whose relatives are Huey, Dewey, and Louie and is of species American Pekin duck?
+triplets: [['http://d_r/Donald_Duck', 'http://d_p/relatives', 'http://d_r/Huey,_Dewey,_and_Louie'], ['http://d_r/Donald_Duck', 'http://d_o/species', 'http://d_r/American_Pekin_duck']]
+triplets with labels: [['Donald Duck', 'relatives', 'Huey, Dewey, and Louie'], ['Donald Duck', 'species', 'American Pekin duck']]
+answer: ["Donald Duck is an American Pelin Duck and has relatives Huey, Dewey and Louis."]
+
+question: Which is the university of Vanderbilt Commodores ?
+triplets: [['http://d_r/Vanderbilt_Commodores', 'http://d_o/university', 'http://d_r/Vanderbilt_University']]
+triplets with labels: [['Vanderbilt Commodores', 'university', 'Vanderbilt University']]
+answer: ["Vanderbilt Commodores's university is Vanderbilt University."]
+
+question: What musicians are signed up with colpix records?
+triplets: [['http://d_r/Davy_Jones_(musician)', 'http://d_p/label', 'http://d_r/Colpix_Records']]
+triplets with labels: [['Davy Jones', 'label', 'Colpix Records']]
+answer: ["Davy Jones is signed up with Colpix Records."]
+
+question: Who is the person that first ascented the Cathedral Peak and Mount Hoffmann?
+triplets: [['http://d_r/Cathedral_Peak_(California)', 'http://d_o/firstAscentPerson', 'http://d_r/John_Muir'], ['http://d_r/Mount_Hoffmann', 'http://d_o/firstAscentPerson', 'http://d_r/John_Muir']]
+triplets with labels: [['Cathedral Peak', 'person that first ascented a mountain', 'John Muir'], ['Mount Hoffmann', 'person that first ascented a mountain', 'John Muir']]
+answer: ["John Muir was the person that first ascented the Cathdral Peak and Mount Hoffman.", "John Muir was the person to ascent the Cathdral Peak and Mount Hoffman."]
+
+question: What river is it whose source is Dowra?
+triplets: [['http://d_r/River_Shannon', 'http://d_p/sourceLocation', 'http://d_r/Dowra']]
+triplets with labels: [['River Shannon', 'source location', 'Dowra']]
+answer: ["River Shannon's source is Dowra.", "Dowra is the source of River Shannon."]
+
+question: What is the municipality of Homestead Grays Bridge ?
+triplets: [['http://d_r/Homestead_Grays_Bridge', 'http://d_o/municipality', 'http://d_r/Pittsburgh,_Pennsylvania']]
+triplets with labels: [['Homestead Grays Bridge', 'municipality', 'Pittsburgh, Pennsylvania']]
+answer: ["Pittsburg, Pennsylvania is the municipality of Homestead Grays Bridge.", "The municipality of Homestead Grays Bridge is Pittsburg, Pennsylvania."]
+
+question: Who is the narrator of The Incredible Hulk , 1982 TV series ?
+triplets: [['http://d_r/The_Incredible_Hulk_(1982_TV_series)', 'http://d_p/narrated', 'http://d_r/Stan_Lee']]
+triplets with labels: [['The Incredible Hulk', 'narrated', 'Stan Lee']]
+answer: ["Stan Lee is the narrator of The Incredible Hulk.", "The Incredible Hulk was narrated by Stan Lee."]
+
+question: Which interest of Philip Novak is the relegion of Vesak ?
+triplets: [['http://d_r/Philip_Novak', 'http://d_p/mainInterests', 'http://d_r/Buddhism'], ['http://d_r/Vesak', 'http://d_o/type', 'http://d_r/Buddhism']]
+triplets with labels: [['Philip Novak', 'main interests', 'Buddhism'], ['Vesak', 'type', 'Buddhism']]
+answer: ["Vesak is a type of Buddhism which ist the main interest of Philip Novak."]
+
+question: What is the area of the Tar Heel Sports Network which is official residence of the Michael Nichols (photographer) ?
+triplets: [['http://d_r/Tar_Heel_Sports_Network', 'http://d_p/area', 'http://d_r/Virginia'], ['http://d_r/Michael_Nichols_(photographer)', 'http://d_o/residence', 'http://d_r/Virginia']]
+triplets with labels: [['Tar Heel Sports Network', 'area', 'Virginia'], ['Michael Nichols', 'residence', 'Virginia']]
+answer: ["The Tar Heel Sports Network is based in Virginia which is the residence of Michael Nichols.", "Michael Nichols lives in Virginia where The Tar Heel Sports Network is based."]
+
+question: Cologny and Lancy are the neighboring municipalities of which place ?
+triplets: [['http://d_r/Geneva', 'http://d_p/neighboringMunicipalities', 'http://d_r/Cologny'], ['http://d_r/Geneva', 'http://d_p/neighboringMunicipalities', 'http://d_r/Lancy']]
+triplets with labels: [['Geneva', 'neighboring municipalities', 'Cologny'], ['Geneva', 'neighboring municipalities', 'Lancy']]
+answer: ["Geneva's neighboring municipalities are Cologny and Lancy.", "Cologny and Lancy are the neighboring municipalities of Geneva."]
+
+question: What is used as money for French Southern and Antarctic Lands is also the product of the Karafarin Bank ?
+triplets: [['http://d_r/French_Southern_and_Antarctic_Lands', 'http://d_o/currency', 'http://d_r/Euro'], ['http://d_r/Karafarin_Bank', 'http://d_o/product', 'http://d_r/Euro']]
+triplets with labels: [['French Southern and Antarctic Lands', 'currency', 'Euro'], ['Karafarin Bank', 'product', 'Euro']]
+answer: ["Euro is the currency French Southern and Antarctic Lands and the product of Karafarin Bank.", "Karafarin Bank's product is euro which is also the currency of French Southern and Antarctic Lands."]
+
+question: What are the central characters in spy kids series?
+triplets: [['http://d_r/Carmen_Cortez', 'http://d_o/series', 'http://d_r/Spy_Kids_(franchise)']]
+triplets with labels: [['Carmen Cortez', 'series', 'Spy Kids']]
+answer: ["Carmen Cortez plays in the Spy Kids."]
+
+question: Which comic characters were created by Paul Dini?
+triplets: [['http://d_r/Andrea_Beaumont', 'http://d_p/creators', 'http://d_r/Paul_Dini']]
+triplets with labels: [['Andrea Beaumont', 'creators', 'Paul Dini']]
+answer: ["Andrea Beaumont was created by Paul Dini."]
+
+question: who owns the ship Victoria?
+triplets: [['http://d_r/Victoria_(ship)', 'http://d_o/owner', 'http://d_r/Ferdinand_Magellan']]
+triplets with labels: [['Victoria', 'owner', 'Ferdinand Magellan']]
+answer: ["Victoria is owned by Ferdinand Magellan.", "Ferdinand Magellan is the owner of Victoria."]
+
+question: What is the purpose of New Zealand Chess Federation ?
+triplets: [['http://d_r/New_Zealand_Chess_Federation', 'http://d_p/purpose', 'http://d_r/Chess']]
+triplets with labels: [['New Zealand Chess Federation', 'purpose', 'Chess']]
+answer: ["New Zealand Chess Federation's main soirt is chess."]
+
+question: Which are the countires where Pioneer Corporation has flourished?
+triplets: [['http://d_r/Pioneer_Corporation', 'http://d_p/country', 'http://d_r/Japan']]
+triplets with labels: [['Pioneer Corporation', 'country', 'Japan']]
+answer: ["Pioneer Corporation is located in Japan."]
+
+question: Who is the president of Carl Stokes nad Wyche Fowler ?
+triplets: [['http://d_r/Carl_Stokes', 'http://d_p/president', 'http://d_r/Bill_Clinton'], ['http://d_r/Wyche_Fowler', 'http://d_o/president', 'http://d_r/Bill_Clinton']]
+triplets with labels: [['Carl Stokes', 'president', 'Bill Clinton'], ['Wyche Fowler', 'president', 'Bill Clinton']]
+answer: ["Bill Clinton is the president of Carl Strokes and Wyche Fowler."]
+
+question: Is God Save the Queen the national anthem of United Kingdom?
+triplets: [['http://d_r/United_Kingdom', 'http://d_p/nationalAnthem', 'http://d_r/God_Save_the_Queen']]
+triplets with labels: [['United Kingdom', 'national anthem', 'God Save the Queen']]
+answer: ["The United Kindgom's national anthem is God Save the Queen.", "God Save the Queen is the national anthem of the United Kingdom."]
+
+question: Was christina crawford trained by Booker T?
+triplets: [['http://d_r/Christina_Crawford_(wrestler)', 'http://d_p/trainer', 'http://d_r/Booker_T_(wrestler)']]
+triplets with labels: [['Christina Crawford', 'trainer', 'Booker T']]
+answer: ["Booker T is the atriner of Christina Crawford.", "Christina Crawford's trainer is Booker T."]
+
+question: What is the currency of Kerguelen Islands ?
+triplets: [['http://d_r/Kerguelen_Islands', 'http://d_o/currency', 'http://d_r/Euro']]
+triplets with labels: [['Kerguelen Islands', 'currency', 'Euro']]
+answer: ["The currency of Kerguelen Islands is euro.", "Euro is the currency of Kerguelen Islands."]
+
+question: Who is the leader of Hackweiser ?
+triplets: [['http://d_r/Hackweiser', 'http://d_p/leaderName', 'http://d_r/North_America']]
+triplets with labels: [['Hackweiser', 'leader name', 'North America']]
+answer: ["Hackweiser's leader is the North America.", "North America is the leader of Hackweiser."]
+
+question: What is the common battle fought by Stephen Urban and Ali Habib Mahmud ?
+triplets: [['http://d_r/Stephen_Urban', 'http://d_o/battle', 'http://d_r/Gulf_War'], ['http://d_r/Ali_Habib_Mahmud', 'http://d_p/battles', 'http://d_r/Gulf_War']]
+triplets with labels: [['Stephen Urban', 'battle', 'Gulf War'], ['Ali Habib Mahmud', 'battles', 'Gulf War']]
+answer: ["Stephen Urban and Ali Habib Mahmud fought in the Gulf War."]
+
+question: What is the relegious affiliations of Katyayana ?
+triplets: [['http://d_r/Katyayana_(Buddhist)', 'http://d_p/religion', 'http://d_r/Buddhism']]
+triplets with labels: [['Katyayana', 'religion', 'Buddhism']]
+answer: ["The religion of Katyayana is Buddhism.", "Buddhism is the religion of Katyayana."]
+
+question: Name the tv show with judges Randy Jackson and Jennifer Lopez?
+triplets: [['http://d_r/American_Idol', 'http://d_p/judges', 'http://d_r/Randy_Jackson'], ['http://d_r/American_Idol', 'http://d_p/judges', 'http://d_r/Jennifer_Lopez']]
+triplets with labels: [['American Idol', 'judges', 'Randy Jackson'], ['American Idol', 'judges', 'Jennifer Lopez']]
+answer: ["Randy Jackson and Jennifer Lopez are the judges in the American Idol.", "Randy Jackson is the judge in the American Idol. Jennifer Lopez is the judge in the American Idol."]
+
+question: Is morrissey in the smiths?
+triplets: [['http://d_r/Morrissey', 'http://d_o/associatedBand', 'http://d_r/The_Smiths']]
+triplets with labels: [['Morrissey', 'associated band', 'The Smiths']]
+answer: ["Morrissey is a member of the band The Smiths."]
+
+question: What is the serving railway line of Warwick railway station, Perth ?
+triplets: [['http://d_r/Warwick_railway_station,_Perth', 'http://d_o/servingRailwayLine', 'http://d_r/Butler']]
+triplets with labels: [['Warwick railway station, Perth', 'serving railway line', 'Butler']]
+answer: ["Butler is the serving line of the Warwick railway station, Perth."]
+
+question: Was True Grit a novel of the western genre?
+triplets: [['http://d_r/True_Grit_(novel)', 'http://d_o/literaryGenre', 'http://d_r/Western_(genre)']]
+triplets with labels: [['True Grit', 'literary genre', 'Western']]
+answer: ["The genre of the True Grit is western.", "True Grit is of the western genre."]
+
+question: which movies have been published by Cinema International Corporation?
+triplets: [['http://d_r/Black_Moon_(1975_film)', 'http://d_o/distributor', 'http://d_r/Cinema_International_Corporation']]
+triplets with labels: [['Black Moon', 'distributor', 'Cinema International Corporation']]
+answer: ["Black Moon is distributed by Cinema International Corporation.", "Cinema International Corporation is the distrubitor of the Black Moon."]
+
+question: List the award which have been won by both Charles LeMaire and Nick Park ?
+triplets: [['http://d_r/Charles_LeMaire', 'http://d_o/award', 'http://d_r/Academy_Awards'], ['http://d_r/Nick_Park', 'http://d_o/award', 'http://d_r/Academy_Awards']]
+triplets with labels: [['Charles LeMaire', 'award', 'Academy Awards'], ['Nick Park', 'award', 'Academy Awards']]
+answer: ["Charles LeMaire won the Academy Awards. Nick Park won the Academy Awards.", "Charles LeMaire and Nick Park won the Academic Awards."]
+
+question: Name the movie who has screenplay by Akiva Goldsman and is edited by Mark Stevens ?
+triplets: [['http://d_r/Batman_(1989_film_series)', 'http://d_p/screenplay', 'http://d_r/Akiva_Goldsman'], ['http://d_r/Batman_(1989_film_series)', 'http://d_p/editing', 'http://d_r/Mark_Stevens_(film_editor)']]
+triplets with labels: [['Batman', 'screenplay', 'Akiva Goldsman'], ['Batman', 'editing', 'Mark Stevens']]
+answer: ["Barman was written by Akiva Goldsman and edited by Mark Stevens."]

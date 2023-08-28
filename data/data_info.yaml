@@ -1,0 +1,15 @@
+# The dataset_info.yaml file contains the information of the datasets used in the experiments.
+web_nlg:
+  hf_hub_url: ["web_nlg", "webnlg_challenge_2017"]
+  local_filename: ""
+  dataset_format: web_nlg
+
+lcquad:
+  hf_hub_url: ""
+  local_filename: lcquad_examples_processed.json
+  dataset_format: lcquad
+
+vquanda:
+  hf_hub_url: ""
+  local_filename: vquanda_test_processed.json
+  dataset_format: lcquad

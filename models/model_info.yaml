@@ -1,0 +1,36 @@
+# The mdel_info.yaml file contains the parameters for the models which wil be used to prepare prompt in the format the model was trained.
+
+EleutherAI/gpt-j-6B:
+  model_name_or_path: "gptj"
+  sep_toks: []
+  roles: ["USER", "ASSISTANT"]
+  stop_str: "USER"
+  load_from_local: False
+  cache_dir: ""
+
+
+OpenAssistant/pythia-12b-sft-v8-7k-steps:
+  model_name_or_path: "gptj"
+  sep_toks: ["<|endoftext|>"]
+  roles: ["<|prompter|>", "<|assistant|>"]
+  stop_str: ""
+  load_from_local: False
+  cache_dir: ""
+
+
+lmsys/vicuna-13b-v1.3:
+  model_name_or_path: "gptj"
+  sep_toks: ["\n###"]
+  roles: ["Human", "Assistant"]
+  stop_str: "\n###"
+  load_from_local: False
+  cache_dir: ""
+
+ 
+bigscience/bloom:
+  model_name_or_path: "bloomz"
+  sep_toks: []
+  roles: ["USER", "ASSISTANT"]
+  stop_str: ""
+  load_from_local: False
+  cache_dir: ""
