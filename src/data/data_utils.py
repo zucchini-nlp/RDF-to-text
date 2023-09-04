@@ -62,6 +62,7 @@ mapping = {
 
 def prepare_input(example: Dict[str, Any], style: str) ->  str:
     linearized_triplet = example["input"]
+    question = example['question']
     if "question" in style:
         input_text = f"Question: {question.strip()} Triplets: {linearized_triplet}"
     else:
@@ -142,9 +143,9 @@ def load_data(
     else:
         try:
             print(f"Lodding dataset from local path: {dataset_path}")
-            dataset = local_dataset(dataset_path, eval_dataset_size, cache_dir=cache_dir)
-        except:
-            raise ValueError(f"Error loading dataset from {dataset_path}")
+            dataset = local_dataset(dataset_path, eval_dataset_size)
+        except Exception as e:
+            raise ValueError(f"Error {e} loading dataset from {dataset_path}")
     return dataset
 
 
@@ -194,8 +195,18 @@ def format_instruction_dataset(
         )
         return dataset
 
+    def _remove_rows(dataset, exclude_idx):
+        dataset = dataset.select(
+            (
+                i for i in range(len(dataset)) 
+                if i not in set(exclude_idx)
+            )
+        )
+        return dataset
+
     print(f"The {dataset_name} using {dataset_format} dataset format.")
     print(f"Applying instruction template: {instruction_template}")
+    dataset = dataset.filter(lambda example: len(example["input"]) <= 1500)
     dataset = dataset.map(prepare_input, fn_kwargs={"style": instruction_template})
     instruction, history = mapping[instruction_template]
     dataset = dataset.map(

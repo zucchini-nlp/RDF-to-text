@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python ./dbgpt_hub/utils/preprocess_dataset.py 
+python ./scr/utils/preprocess_dataset.py 
 
 CUDA_VISIBLE_DEVICES=1 python predict_qlora.py \
     --model_name_or_path lmsys/vicuna-13b-v1.3 \

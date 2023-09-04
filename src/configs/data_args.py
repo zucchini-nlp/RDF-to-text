@@ -108,6 +108,7 @@ class DataArguments:
             dataset_attr.hf_hub_url = datasets_info[name].get("hf_hub_url", None)
             dataset_attr.local_filename = datasets_info[name].get("local_filename", None)
 
+            print(os.path.join(data_path, datasets_info[name]["local_filename"]))
             if datasets_info[name]["local_filename"] and os.path.exists(
                 os.path.join(data_path, datasets_info[name]["local_filename"])
             ):

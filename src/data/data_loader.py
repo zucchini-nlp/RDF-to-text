@@ -6,7 +6,7 @@ from .sft_dataset import DataCollatorForSupervisedDataset, SFTInstructionDataset
 
 def make_supervised_data_module(tokenizer: PreTrainedTokenizer, args):
     train_dataset, eval_dataset = make_data_module(args)
-    max_seq_length = tokenizer.model_max_length
+    max_seq_length = min(tokenizer.model_max_length, 1024)
 
     train_dataset = (
         SFTInstructionDataset(

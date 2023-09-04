@@ -6,7 +6,7 @@ import yaml
 
 @dataclass
 class ModelParams(object):
-    model_name_or_path: str = None
+    model_type: str = None
     sep_toks: Optional[str] = None
     roles: Optional[str] = None
     stop_str: str = None
@@ -14,7 +14,7 @@ class ModelParams(object):
 
     def __repr__(self) -> str:
         rep = (
-            f"model_name_or_path: {self.model_name_or_path} || "
+            f"model_type: {self.model_type} || "
             f"sep_toks: {self.sep_toks} || "
             f"roles: {self.roles} \n"
             f"stop_str: {self.stop_str}  || "

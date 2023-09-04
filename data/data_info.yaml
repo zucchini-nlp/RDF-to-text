@@ -11,5 +11,5 @@ lcquad:
 
 vquanda:
   hf_hub_url: ""
-  local_filename: vquanda_test_processed.json
+  local_filename: vquanda_train_processed.json
   dataset_format: lcquad

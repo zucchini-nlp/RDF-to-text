@@ -9,7 +9,7 @@ from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import Dataset
 from transformers.tokenization_utils import PreTrainedTokenizer
 
-from dbgpt_hub.data.data_utils import make_data_module
+from src.data.data_utils import make_data_module
 
 logger = logging.getLogger(__name__)
 
@@ -48,46 +48,41 @@ class SFTInstructionDataset(Dataset):
         example = self.dataset[idx]
 
         source_text = example["input"]
-        source_text = (
-            f"{self.tokenizer.bos_token}{source_text}{self.tokenizer.eos_token}"
-        )
-
         target_text = example["output"]
 
         # if several reference texts were provided as output
         if isinstance(target_text, list):
             target_text = target_text[0]
-        target_text = f"{target_text}{self.tokenizer.eos_token}"
+        
+        text = (
+            f"{self.tokenizer.bos_token}{source_text}{target_text}{self.tokenizer.eos_token}"
+        )
 
         tokenized_source = self.tokenizer(
             source_text,
             max_length=self.max_seq_len,
-            truncation=True,
+            padding=True,
             add_special_tokens=False,
         )
-        tokenized_target = self.tokenizer(
-            target_text,
+
+        tokenized = self.tokenizer(
+            text,
             max_length=self.max_seq_len,
-            truncation=True,
+            padding=True,
             add_special_tokens=False,
         )
 
-        source_ids = tokenized_source["input_ids"]
-        target_ids = tokenized_target["input_ids"]
+        # https://github.com/huggingface/transformers/issues/22794#issuecomment-1601482558
+        input_ids = tokenized["input_ids"]
+        source_ids = tokenized_source['input_ids']
 
-        if len(source_ids) > self.max_seq_len:
-            print(
-                f"Source length {len(source_ids)} exceeds max seq length of {self.max_seq_len}"
-            )
-        if len(target_ids) > self.max_seq_len:
-            print(
-                f"Target length {len(target_ids)} exceeds max seq length of {self.max_seq_len}"
-            )
+        if len(input_ids) > self.max_seq_len:
+            input_ids = input_ids[:self.max_seq_len]
 
-        input_ids = torch.tensor(source_ids + target_ids)
-        labels = torch.tensor(
-            [IGNORE_INDEX for _ in range(len(source_ids))] + copy.deepcopy(target_ids)
-        )
+        masked_source = [IGNORE_INDEX for _ in range(len(source_ids))]
+        target_ids = copy.deepcopy(input_ids[len(source_ids): ])
+        labels = torch.tensor((masked_source + target_ids)[:self.max_seq_len])
+        input_ids = torch.tensor(input_ids)
 
         data_dict = {"input_ids": input_ids, "labels": labels}
         return data_dict

@@ -1,3 +1,4 @@
+protobuf==3.20.2
 transformers==4.31
 peft==0.4.0
 accelerate==0.21.0

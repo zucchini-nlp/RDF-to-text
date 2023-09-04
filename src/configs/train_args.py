@@ -32,7 +32,7 @@ class TrainingArguments(Seq2SeqTrainingArguments):
         },
     )
     gradient_checkpointing: bool = field(
-        default=True,
+        default=False,
         metadata={"help": "Use gradient checkpointing. You want to use this."},
     )
     predict_with_generate: bool = field(

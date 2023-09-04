@@ -12,7 +12,7 @@ from transformers import (
     LlamaTokenizer,
 )
 
-from dbgpt_hub.utils.model_utils import smart_tokenizer_and_embedding_resize
+from src.utils.model_utils import smart_tokenizer_and_embedding_resize
 
 
 def get_accelerate_model(
@@ -30,7 +30,7 @@ def get_accelerate_model(
     # if we are in a distributed setting, we need to set the device map and max memory per device
     if os.environ.get("LOCAL_RANK") is not None:
         local_rank = int(os.environ.get("LOCAL_RANK", "0"))
-        device_map = {"": local_rank}
+        device_map = {"": local_rank} # device_map={'':torch.cuda.current_device()}
         max_memory = {"": max_memory[local_rank]}
 
     if do_train and args.full_finetune:
@@ -78,8 +78,9 @@ def get_accelerate_model(
             print("=" * 80)
 
 
-    setattr(model, "model_parallel", True)
-    setattr(model, "is_parallelizable", True)
+    if "gpt-j" not in args.model_name_or_path:
+        setattr(model, "model_parallel", True)
+        setattr(model, "is_parallelizable", True)
 
     model.config.torch_dtype = (
         torch.float32 if args.fp16 else (torch.bfloat16 if args.bf16 else torch.float32)
@@ -87,10 +88,10 @@ def get_accelerate_model(
 
 
     # Tokenizer
+    print(f"Loading tokenizer: {args.model_name_or_path}")
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name_or_path,
         padding_side="right",
-        use_fast=False,
         tokenizer_type="llama"
         if "llama" in args.model_name_or_path
         else None,
